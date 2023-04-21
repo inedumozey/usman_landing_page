@@ -1,0 +1,56 @@
+#form {
+    margin: auto;
+    padding: 20px 20px;
+    background-color: #fff;
+    max-width: 700px;
+    /* box-shadow: 5px 5px 10px #ccc, -5px -5px 10px #ccc; */
+}
+
+.form-data {
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    border: 1px solid #ccc;
+    font-weight: 100;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 1px solid blue;
+}
+
+#error {
+    border: 1px solid red;
+}
+
+.errorText {
+    color: red;
+}
+
+
+.options {
+    display: inline;
+}
+
+#button {
+    width: 100%;
+    background-color: #0693e3;
+    text-decoration: none;
+}
+
+#button:hover {
+    opacity: .8;
+}
+
+.optionError {
+    color: red;
+    font-style: italic;
+    display: none
+}
+
+.optionError#optionErrorShow {
+    display: block
+}
